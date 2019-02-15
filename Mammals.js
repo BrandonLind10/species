@@ -1,6 +1,6 @@
 import Animalia from Animalia.js
 
-class Mammal{
+class Mammal extends Animalia{
     constructor(){
         this.metabolism="warm blooded";
     }
