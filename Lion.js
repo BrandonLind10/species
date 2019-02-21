@@ -6,7 +6,9 @@ class Lion{
     this.sex=sex;
     this.age=age;
   }
-  
+  bite(){
+      console.log(this.name + ": bite");
+  }
 
 }
 
